@@ -146,7 +146,7 @@ Use this table to map symptoms to causes and solutions:
 - When data is incomplete, state assumptions clearly
 - For Shopping or Performance Max campaigns, note that keyword-level data is limited
 - Flag if conversion tracking appears broken (conversions = 0 with substantial spend)
-- Reference industry benchmarks when helpful (see `references/performance-benchmarks.md`)
+- Reference industry benchmarks when helpful (see `references/performance-benchmarks.md`) — benchmarks default to the Brazilian market in BRL (R$)
 - Use the metrics glossary when explaining unfamiliar terms (see `references/metrics-glossary.md`)
 
 ## References

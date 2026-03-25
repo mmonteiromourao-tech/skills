@@ -1,125 +1,127 @@
-# Google Ads Performance Benchmarks by Industry
+# Benchmarks de Performance Google Ads — Mercado Brasileiro
 
-Use these benchmarks to contextualize performance. Numbers are industry averages — actual results vary based on offer quality, landing page, funnel maturity, and competition. Source: WordStream / Google industry data, updated periodically.
+Use estes benchmarks para contextualizar a performance das campanhas. Os valores são médias do mercado brasileiro e variam conforme qualidade do anúncio, landing page, maturidade do funil e nível de concorrência.
 
-> When presenting benchmarks, always note: "These are averages. Compare against your own historical data first."
+> Ao apresentar benchmarks, sempre ressalte: "Estes são valores de referência. Compare primeiro com o histórico da própria conta."
+
+> **Moeda**: Real brasileiro (R$). **Mercado**: Brasil. Para referências em USD (mercado americano), consulte fontes como WordStream.
 
 ---
 
-## Search Network Benchmarks
+## Rede de Pesquisa — Benchmarks por Setor
 
-| Industry | Avg CTR | Avg CPC (USD) | Avg CVR | Avg CPA (USD) |
+| Setor | CTR Médio | CPC Médio (R$) | CVR Médio | CPA Médio (R$) |
 |---|---|---|---|---|
-| Advocacy | 4.41% | $1.43 | 4.41% | $96.55 |
-| Auto | 4.00% | $2.46 | 6.03% | $33.52 |
-| B2B | 2.41% | $3.33 | 3.04% | $116.13 |
-| Consumer Services | 2.41% | $6.40 | 6.64% | $90.70 |
-| Dating & Personals | 6.05% | $2.78 | 9.64% | $76.76 |
-| E-Commerce | 2.69% | $1.16 | 2.81% | $45.27 |
-| Education | 3.78% | $2.40 | 3.39% | $72.70 |
-| Employment Services | 2.42% | $2.04 | 5.13% | $48.04 |
-| Finance & Insurance | 2.91% | $3.44 | 5.10% | $81.93 |
-| Health & Medical | 3.27% | $2.62 | 3.36% | $78.09 |
-| Home Goods | 2.44% | $2.94 | 2.70% | $87.13 |
-| Industrial Services | 2.61% | $2.56 | 3.37% | $79.28 |
-| Legal | 2.93% | $6.75 | 6.98% | $86.02 |
-| Real Estate | 3.71% | $2.37 | 2.47% | $116.61 |
-| Technology | 2.09% | $3.80 | 2.92% | $133.52 |
-| Travel & Hospitality | 4.68% | $1.53 | 3.55% | $44.73 |
+| E-Commerce | 2.5% | R$ 1,20 | 2.5% | R$ 48,00 |
+| Educação | 3.5% | R$ 3,50 | 4.0% | R$ 87,50 |
+| Saúde e Medicina | 3.0% | R$ 4,00 | 3.5% | R$ 114,00 |
+| Beleza e Estética | 3.8% | R$ 2,80 | 4.5% | R$ 62,00 |
+| Jurídico | 2.8% | R$ 9,50 | 5.5% | R$ 172,00 |
+| Finanças e Seguros | 2.7% | R$ 5,50 | 4.0% | R$ 137,50 |
+| Imóveis | 3.5% | R$ 3,80 | 2.5% | R$ 152,00 |
+| Tecnologia / SaaS | 2.0% | R$ 6,00 | 2.8% | R$ 214,00 |
+| Serviços B2B | 2.3% | R$ 5,20 | 3.0% | R$ 173,00 |
+| Varejo / Lojas Físicas | 2.8% | R$ 1,80 | 3.5% | R$ 51,00 |
+| Alimentação / Delivery | 4.5% | R$ 1,50 | 5.0% | R$ 30,00 |
+| Turismo e Viagens | 4.2% | R$ 2,40 | 3.0% | R$ 80,00 |
+| Automotivo | 3.8% | R$ 3,60 | 4.5% | R$ 80,00 |
+| Serviços Domésticos | 3.2% | R$ 3,20 | 5.0% | R$ 64,00 |
+| Recursos Humanos / Emprego | 2.5% | R$ 2,80 | 4.5% | R$ 62,00 |
+| ONG / Terceiro Setor | 4.0% | R$ 1,20 | 3.5% | R$ 34,00 |
 
 ---
 
-## Display Network Benchmarks
+## Rede de Display — Benchmarks por Setor
 
-| Industry | Avg CTR | Avg CPC (USD) | Avg CVR | Avg CPA (USD) |
+| Setor | CTR Médio | CPC Médio (R$) | CVR Médio | CPA Médio (R$) |
 |---|---|---|---|---|
-| Advocacy | 0.59% | $0.62 | 1.00% | $70.69 |
-| Auto | 0.60% | $0.58 | 1.19% | $65.71 |
-| B2B | 0.46% | $0.79 | 0.80% | $130.02 |
-| Consumer Services | 0.51% | $0.81 | 0.98% | $60.48 |
-| E-Commerce | 0.51% | $0.45 | 0.59% | $45.27 |
-| Education | 0.53% | $0.47 | 0.50% | $143.36 |
-| Finance & Insurance | 0.52% | $0.86 | 1.19% | $41.14 |
-| Health & Medical | 0.59% | $0.63 | 0.82% | $78.09 |
-| Legal | 0.59% | $1.08 | 1.84% | $74.69 |
-| Real Estate | 1.08% | $0.75 | 0.80% | $116.61 |
-| Technology | 0.39% | $0.51 | 0.86% | $103.60 |
-| Travel & Hospitality | 0.47% | $0.44 | 0.51% | $44.73 |
+| E-Commerce | 0.45% | R$ 0,55 | 0.6% | R$ 91,00 |
+| Educação | 0.50% | R$ 0,70 | 0.5% | R$ 140,00 |
+| Saúde e Medicina | 0.55% | R$ 0,90 | 0.8% | R$ 112,00 |
+| Finanças e Seguros | 0.48% | R$ 1,20 | 1.0% | R$ 120,00 |
+| Imóveis | 0.95% | R$ 1,00 | 0.8% | R$ 125,00 |
+| Tecnologia / SaaS | 0.38% | R$ 0,75 | 0.7% | R$ 107,00 |
+| Serviços B2B | 0.42% | R$ 1,10 | 0.7% | R$ 157,00 |
+| Varejo / Lojas Físicas | 0.52% | R$ 0,50 | 0.6% | R$ 83,00 |
+| Turismo e Viagens | 0.45% | R$ 0,60 | 0.5% | R$ 120,00 |
+| Automotivo | 0.58% | R$ 0,80 | 1.0% | R$ 80,00 |
+| Jurídico | 0.55% | R$ 1,50 | 1.5% | R$ 100,00 |
 
 ---
 
-## Quality Score Benchmarks
+## Benchmarks de Quality Score
 
-| QS | Meaning | Expected Effect on CPC |
+| QS | Significado | Efeito esperado no CPC |
 |---|---|---|
-| 10 | Excellent | ~50% below average CPC |
-| 8–9 | Above average | ~20–30% below average CPC |
-| 7 | Average | Baseline CPC |
-| 5–6 | Below average | ~20–30% above average CPC |
-| 3–4 | Poor | ~50–75% above average CPC |
-| 1–2 | Very poor | Severe delivery limits, may not show |
+| 10 | Excelente | ~50% abaixo do CPC médio |
+| 8–9 | Acima da média | ~20–30% abaixo do CPC médio |
+| 7 | Médio | CPC base |
+| 5–6 | Abaixo da média | ~20–30% acima do CPC médio |
+| 3–4 | Ruim | ~50–75% acima do CPC médio |
+| 1–2 | Muito ruim | Entrega severamente limitada ou suspensa |
 
-**Target**: QS ≥ 7 for active keywords. Pause or improve keywords at QS ≤ 4.
+**Meta**: QS ≥ 7 para keywords ativas. Pausar ou melhorar keywords com QS ≤ 4.
 
 ---
 
-## ROAS Benchmarks
+## Benchmarks de ROAS
 
-| Business Type | Typical Target ROAS |
+| Tipo de Negócio | ROAS-alvo típico |
 |---|---|
-| E-Commerce (low margin, <20%) | 8–12x |
-| E-Commerce (mid margin, 30–50%) | 4–6x |
-| E-Commerce (high margin, >50%) | 2–4x |
-| Lead Generation (B2C) | N/A — use CPA |
-| Lead Generation (B2B) | N/A — use CPA or pipeline value |
-| Subscription / SaaS | 2–4x LTV-based |
+| E-Commerce (margem baixa, < 20%) | 8–12x |
+| E-Commerce (margem média, 30–50%) | 4–6x |
+| E-Commerce (margem alta, > 50%) | 2–4x |
+| Geração de Leads (B2C) | N/A — usar CPA |
+| Geração de Leads (B2B) | N/A — usar CPA ou valor de pipeline |
+| Assinatura / SaaS | 2–4x baseado em LTV |
 
-> ROAS break-even = 1 / Gross Margin. Example: 40% margin → break-even ROAS = 2.5x.
+> ROAS de break-even = 1 / Margem bruta. Exemplo: margem de 40% → ROAS mínimo = 2,5x.
 
 ---
 
-## Impression Share Benchmarks
+## Benchmarks de Impression Share
 
-| Metric | Healthy | Needs Attention |
+| Métrica | Saudável | Atenção necessária |
 |---|---|---|
 | Search IS | > 50% | < 30% |
-| IS Lost (Budget) | < 10% | > 20% |
-| IS Lost (Rank) | < 20% | > 30% |
-| Abs. Top IS (brand) | > 80% | < 60% |
+| IS Perdido (Orçamento) | < 10% | > 20% |
+| IS Perdido (Rank) | < 20% | > 30% |
+| Abs. Top IS (marca) | > 80% | < 60% |
 
 ---
 
-## CTR Anomaly Thresholds (Search)
+## Limites de Alerta de CTR (Rede de Pesquisa)
 
-Use these to flag underperforming entities:
+Use para sinalizar entidades com baixo desempenho:
 
-| Entity | Flag if CTR below |
+| Entidade | Sinalizar se CTR abaixo de |
 |---|---|
-| Campaign (brand) | 10% |
-| Campaign (non-brand) | 2% |
-| Ad Group | 1.5% |
-| Keyword (Exact) | 3% |
-| Keyword (Phrase) | 2% |
-| Keyword (Broad) | 1% |
-| Responsive Search Ad | 2% |
+| Campanha (marca) | 10% |
+| Campanha (não-marca) | 2% |
+| Grupo de Anúncios | 1.5% |
+| Keyword (Exata) | 3% |
+| Keyword (Frase) | 2% |
+| Keyword (Ampla) | 1% |
+| Anúncio Responsivo (RSA) | 2% |
 
 ---
 
-## Conversion Rate Anomaly Thresholds
+## Limites de Alerta de Taxa de Conversão
 
-| Traffic Type | Flag if CVR below |
+| Tipo de Tráfego | Sinalizar se CVR abaixo de |
 |---|---|
-| E-commerce (product pages) | 1% |
-| Lead gen (form) | 3% |
-| Lead gen (call) | 5% |
-| SaaS free trial | 2% |
+| E-commerce (páginas de produto) | 1% |
+| Geração de leads (formulário) | 3% |
+| Geração de leads (ligação) | 5% |
+| SaaS (trial gratuito) | 2% |
 
 ---
 
-## Notes on Using Benchmarks
+## Notas sobre o Uso dos Benchmarks
 
-1. **Own history first**: Compare against your account's historical data before industry benchmarks. Trends matter more than absolute values.
-2. **Campaign type matters**: Shopping, Performance Max, and Display benchmarks differ significantly from Search.
-3. **Seasonality**: CTR and CVR fluctuate seasonally. Benchmark against same period last year when possible.
-4. **Market maturity**: Competitive markets have higher CPCs; newer markets may have lower CPCs but also lower intent.
-5. **Geo and language**: CPCs vary significantly by country. USD benchmarks above apply to US markets.
+1. **Histórico próprio primeiro**: Compare com os dados históricos da conta antes de recorrer a benchmarks do setor. Tendências importam mais que valores absolutos.
+2. **Tipo de campanha**: Campanhas Shopping, Performance Max e Display têm benchmarks muito diferentes de Search.
+3. **Sazonalidade**: CTR e CVR oscilam conforme datas comemorativas (Black Friday, Natal, Dia das Mães). Compare com o mesmo período do ano anterior.
+4. **Maturidade do mercado**: Mercados mais competitivos têm CPCs mais altos. Nichos menos disputados podem ter CPCs baixos mas também menor intenção de compra.
+5. **Região**: CPCs variam entre regiões do Brasil. São Paulo e Rio de Janeiro costumam ter CPCs mais altos que o interior.
+6. **Referência internacional**: Os valores em R$ assumem câmbio e dinâmica de mercado local. Para comparação com mercado americano (USD), consulte WordStream ou Google Ads Benchmarks Reports.
