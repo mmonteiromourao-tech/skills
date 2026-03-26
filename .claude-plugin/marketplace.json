@@ -50,6 +50,15 @@
       "skills": [
         "./skills/claude-api"
       ]
+    },
+    {
+      "name": "setup-nextjs",
+      "description": "Scaffolds a new Next.js project with Tailwind CSS and shadcn/ui",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/setup-nextjs"
+      ]
     }
   ]
 }
