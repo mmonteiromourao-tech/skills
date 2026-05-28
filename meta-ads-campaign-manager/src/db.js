@@ -67,12 +67,12 @@ export async function saveCampaign(campaign) {
 export async function deleteCampaign(id) {
   const db = await getDb()
   const tx = db.transaction(['campaigns', 'files'], 'readwrite')
-  await tx.objectStore('campaigns').delete(id)
-  const fileIndex = tx.objectStore('files').index('campaignId')
-  const files = await fileIndex.getAll(id)
-  for (const f of files) {
-    await tx.objectStore('files').delete(f.id)
-  }
+  const filesStore = tx.objectStore('files')
+  const campaignsStore = tx.objectStore('campaigns')
+  // Queue all requests before any await to prevent transaction auto-commit
+  const files = await filesStore.index('campaignId').getAll(id)
+  const reqs = [campaignsStore.delete(id), ...files.map(f => filesStore.delete(f.id))]
+  await Promise.all(reqs)
   await tx.done
 }
 

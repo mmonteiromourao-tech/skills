@@ -62,7 +62,7 @@ export default function CampaignDetail() {
       setForm({ ...emptyForm(), ...campaign })
       setDirty(false)
     }
-  }, [selectedId, isNew])
+  }, [selectedId, isNew, campaign])
 
   useEffect(() => {
     if (!isNew && selectedId && selectedId !== 'new') {
@@ -104,11 +104,10 @@ export default function CampaignDetail() {
   async function handleChecklistChange(field, newItems) {
     const updated = { ...form, [field]: newItems }
     setForm(updated)
-    setDirty(false)
     if (!isNew) {
       try {
-        const id = selectedId
-        await saveCampaign({ ...updated, id })
+        await saveCampaign({ ...updated, id: selectedId })
+        setDirty(false)
       } catch {}
     }
   }

@@ -5,6 +5,7 @@ import {
   getAllCampaigns, saveCampaign as dbSaveCampaign, deleteCampaign as dbDeleteCampaign,
   getCampaignsByClientId,
 } from '../db'
+import { createDefaultChecklistCliente, createDefaultChecklistPreLancamento } from '../constants'
 
 let loadClientsSeq = 0
 let loadCampaignsSeq = 0
@@ -37,6 +38,7 @@ const useAppStore = create((set, get) => ({
       }
     } catch (e) {
       toast.error('Erro ao carregar dados do banco local.')
+      set({ loaded: true }) // unblock UI even on error so empty state is shown
     }
   },
 
@@ -115,14 +117,13 @@ const useAppStore = create((set, get) => ({
       const original = campaigns.find(c => c.id === id)
       if (!original) return
       const now = new Date().toISOString()
-      const { createDefaultChecklistCliente, createDefaultChecklistPreLancamento } = await import('../constants')
       const copy = {
         ...original,
         id: crypto.randomUUID(),
         name: original.name + ' (Cópia)',
         status: 'rascunho',
-        checklistCliente: original.checklistCliente.map(item => ({ ...item, id: crypto.randomUUID() })),
-        checklistPreLancamento: original.checklistPreLancamento.map(item => ({ ...item, id: crypto.randomUUID() })),
+        checklistCliente: (original.checklistCliente ?? createDefaultChecklistCliente()).map(item => ({ ...item, id: crypto.randomUUID() })),
+        checklistPreLancamento: (original.checklistPreLancamento ?? createDefaultChecklistPreLancamento()).map(item => ({ ...item, id: crypto.randomUUID() })),
         createdAt: now,
         updatedAt: now,
       }

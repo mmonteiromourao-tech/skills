@@ -5,7 +5,7 @@ import { OBJECTIVE_OPTIONS, STATUS_OPTIONS } from '../constants'
 import toast from 'react-hot-toast'
 
 function normalizeStr(s) {
-  return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+  return (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 }
 
 export default function CampaignList() {

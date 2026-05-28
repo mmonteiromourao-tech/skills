@@ -10,6 +10,7 @@ function parseHash() {
   if (hash === 'clientes') return { section: 'clientes', campaignId: null }
   if (hash.startsWith('campanhas/')) {
     const id = hash.replace('campanhas/', '')
+    if (id === 'new' || id === '') return { section: 'campanhas', campaignId: null }
     return { section: 'campanhas', campaignId: id }
   }
   return { section: 'campanhas', campaignId: null }

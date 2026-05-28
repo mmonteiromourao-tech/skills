@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import * as Dialog from '@radix-ui/react-dialog'
 import toast from 'react-hot-toast'
 import { saveFile, deleteFile } from '../db'
@@ -54,26 +54,25 @@ function FileIcon({ mimeType }) {
 function PreviewModal({ file, open, onClose }) {
   const [objUrl, setObjUrl] = useState(null)
 
+  useEffect(() => {
+    if (open && file) {
+      const url = URL.createObjectURL(file.blob)
+      setObjUrl(url)
+      return () => {
+        URL.revokeObjectURL(url)
+        setObjUrl(null)
+      }
+    }
+  }, [open, file])
+
   if (!file) return null
 
-  function handleOpen() {
-    const url = URL.createObjectURL(file.blob)
-    setObjUrl(url)
-  }
-
-  function handleClose() {
-    if (objUrl) URL.revokeObjectURL(objUrl)
-    setObjUrl(null)
-    onClose()
-  }
-
   return (
-    <Dialog.Root open={open} onOpenChange={open => { if (!open) handleClose() }}>
+    <Dialog.Root open={open} onOpenChange={isOpen => { if (!isOpen) onClose() }}>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 bg-black/60 z-40" />
         <Dialog.Content
           className="fixed inset-4 z-50 bg-white rounded-xl flex flex-col overflow-hidden"
-          onOpenAutoFocus={handleOpen}
         >
           <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200">
             <Dialog.Title className="text-sm font-medium text-gray-800">{file.name}</Dialog.Title>

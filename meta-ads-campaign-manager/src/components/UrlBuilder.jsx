@@ -4,9 +4,9 @@ import toast from 'react-hot-toast'
 function buildUrl(baseUrl, utmSource, utmMedium, utmCampaign) {
   try {
     const url = new URL(baseUrl)
-    if (utmSource.trim()) url.searchParams.set('utm_source', utmSource.trim())
-    if (utmMedium.trim()) url.searchParams.set('utm_medium', utmMedium.trim())
-    if (utmCampaign.trim()) url.searchParams.set('utm_campaign', utmCampaign.trim())
+    if ((utmSource ?? '').trim()) url.searchParams.set('utm_source', utmSource.trim())
+    if ((utmMedium ?? '').trim()) url.searchParams.set('utm_medium', utmMedium.trim())
+    if ((utmCampaign ?? '').trim()) url.searchParams.set('utm_campaign', utmCampaign.trim())
     return { url: url.toString(), error: null }
   } catch {
     return { url: null, error: 'URL base inválida. Verifique o formato (ex: https://seusite.com).' }
